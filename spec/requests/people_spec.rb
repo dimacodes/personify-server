@@ -42,14 +42,13 @@ RSpec.describe 'Personify API', type: :request do
       end
 
       it 'returns a not found message' do
-        expect(response.body).to match(/Couldn't find person/)
+        expect(response.body).to match(/Couldn't find Person with 'id'=#{person_id}/)
       end
     end
   end
 
   # Test suite for POST /people
   describe 'POST /people' do
-    # valid payload
     let(:valid_attributes) { { name: 'Sean', favoriteCity: 'New York' } }
 
     context 'when the request is valid' do
@@ -65,7 +64,7 @@ RSpec.describe 'Personify API', type: :request do
     end
 
     context 'when the request is invalid' do
-      before { post '/people', params: { name: 'Mike' } }
+      before { post '/people', params: { name: 'Sean' } }
 
       it 'returns status code 422' do
         expect(response).to have_http_status(422)
@@ -73,7 +72,7 @@ RSpec.describe 'Personify API', type: :request do
 
       it 'returns a validation failure message' do
         expect(response.body)
-          .to match(/Validation failed: favoriteCity can't be blank/)
+          .to match(/Validation failed: Favoritecity can't be blank/)
       end
     end
   end
