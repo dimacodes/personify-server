@@ -45,4 +45,4 @@ Authentication
 - Personify API is available for public consumption, no authentication token needed
 
 <br>
-Please visit http://personify-client.herokuapp.com/ to see the Personify API in action.
+Please visit http://personify-client.herokuapp.com/ to check out the Personify API in action.
