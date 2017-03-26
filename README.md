@@ -1,6 +1,7 @@
 # PERSONIFY API
 
-* About
+
+  About
 
 - Developed through a test driven approach
 - REST-compliant
@@ -9,9 +10,10 @@
 - Returns JSON
 
 
-* Getting started:
 
-Endpoint: http://personify-server.herokuapp.com/api/v1/people
+Getting started:
+
+- Endpoint: http://personify-server.herokuapp.com/api/v1/people
 
 * Tutorials: Use cases surrounding different common flows or uses of the application. Examples:
 
