@@ -4,18 +4,20 @@
 About
 
 - Scalable API-only Rails application
-- Developed utilizing TDD, responses thoroughly tested
+- Developed utilizing TDD
+- Responses thoroughly tested
 - REST-compliant
 - Allows cross-origin resource sharing
 - Configured for token-based authentication
-- Includes versioning, current version is 1.0
+- Includes versioning
+- Current version is 1.0
 - Serves JSON
 
 
 Getting started
 
 - The Personify API allows access to a directory of peoples' names and their favorite cities
-- The home address of the API is http://personify-server.herokuapp.com
+- The home address of the API is [http://personify-server.herokuapp.com/api](http://personify-server.herokuapp.com)
 - Several unique endpoints exist at that address
 
 
@@ -42,7 +44,8 @@ Responses
 
 Authentication
 
-- Personify API is available for public consumption, no authentication token needed
+- Personify API is available for public consumption
+- No authentication token needed
 
 <br>
-Please visit http://personify-client.herokuapp.com/ to check out the Personify API in action.
+Please visit [Personify](http://personify-client.herokuapp.com), an example of an application built with the Personify API.
