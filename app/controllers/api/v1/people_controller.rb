@@ -22,13 +22,12 @@ module Api::V1
     # PUT /people/:id
     def update
       @person.update(person_params)
-      head :no_content
+      json_response(@person)
     end
 
     # DELETE /people/:id
     def destroy
       @person.destroy
-      head :no_content
     end
 
     private
