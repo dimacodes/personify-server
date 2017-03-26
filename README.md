@@ -24,15 +24,15 @@ Reference
 - Resources can be accessed via standard HTTP requests
 - Parameters are required for most requests
 
-GET&nbsp;&nbsp;&nbsp;/v1/people&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;see all people&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; *
+GET - /v1/people - see all people - parameters: none
 <br></br>
-POST&nbsp;&nbsp;&nbsp;/v1/people&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;create person&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; name: string, favoriteCity: string
+POST - /v1/people - create person - parameters: name: string, favoriteCity: string
 <br></br>
-GET&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;see person&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; id: integer
+GET - /v1/people/:id - see person - parameters: id
 <br></br>
-PUT&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;modify person&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; name: string, favoriteCity: string
+PUT - /v1/people/:id - modify person - parameters: name: string, favoriteCity: string
 <br></br>
-DELETE&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;delete person&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; id: integer
+DELETE - /v1/people/:id - delete person - parameters: id
 
 Example
 
