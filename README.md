@@ -40,25 +40,25 @@ GET request to /v1/people:
     ...
     [
         {
-            "created_at": "2017-03-26T05:40:00.864Z",
+            "created_at": "2017-03-24T05:40:00.864Z",
             "favoriteCity": "Miami",
             "id": 2,
             "name": "Sean Kingston",
-            "updated_at": "2017-03-26T05:41:54.999Z"
+            "updated_at": "2017-03-24T05:41:54.999Z"
         },
         {
-            "created_at": "2017-03-26T05:42:23.863Z",
+            "created_at": "2017-03-24T05:42:23.863Z",
             "favoriteCity": "Kingston",
             "id": 3,
             "name": "Sean Paul",
-            "updated_at": "2017-03-26T05:42:23.863Z"
+            "updated_at": "2017-03-24T05:42:23.863Z"
         },
         {
-            "created_at": "2017-03-26T04:53:55.476Z",
+            "created_at": "2017-03-24T04:53:55.476Z",
             "favoriteCity": "New York",
             "id": 1,
             "name": "Sean",
-            "updated_at": "2017-03-26T18:10:24.963Z"
+            "updated_at": "2017-03-24T18:10:24.963Z"
         }
     ]
 
