@@ -24,11 +24,15 @@ Reference
 - Resources can be accessed via standard HTTP requests
 - Parameters are required for most requests
 
-GET&nbsp;&nbsp;&nbsp;/v1/people&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;See all people&nbsp;&nbsp;&nbsp;params: *
-POST&nbsp;&nbsp;&nbsp;/v1/people&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;Create person&nbsp;&nbsp;&nbsp;params: name: string, favoriteCity: string
-GET&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;See person&nbsp;&nbsp;&nbsp;params: id: integer
-PUT&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;Modify person&nbsp;&nbsp;&nbsp;params: name: string, favoriteCity: string
-DELETE&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;Delete person&nbsp;&nbsp;&nbsp;params: id: integer
+GET&nbsp;&nbsp;&nbsp;/v1/people&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;see all people&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; *
+<br></br>
+POST&nbsp;&nbsp;&nbsp;/v1/people&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;create person&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; name: string, favoriteCity: string
+<br></br>
+GET&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;see person&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; id: integer
+<br></br>
+PUT&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;modify person&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; name: string, favoriteCity: string
+<br></br>
+DELETE&nbsp;&nbsp;&nbsp;/v1/people/:id&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;delete person&nbsp;&nbsp;&nbsp;params:&nbsp;&nbsp;&nbsp; id: integer
 
 Example
 
