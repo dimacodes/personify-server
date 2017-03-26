@@ -1,6 +1,6 @@
 module Api::V1
   class PeopleController < ApiController
-    before_action :set_person, only: [:show, :update, :destroy]
+    before_action :set_person, only: [:show, :destroy]
 
     # GET /people
     def index
