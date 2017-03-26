@@ -15,7 +15,7 @@ About
 Getting started
 
 - The Personify API allows access to a directory of peoples' names and their favorite cities
-- The home address of the API is http://personify-server.herokuapp.com/api
+- The home address of the API is http://personify-server.herokuapp.com
 - Several unique endpoints exist at that address
 
 
@@ -47,4 +47,4 @@ Authentication
 - Personify API is available for public consumption, no authentication token needed
 
 
-* Please visit http://personify-client.herokuapp.com/ to see the Personify API in action
+Please visit http://personify-client.herokuapp.com/ to see the Personify API in action
