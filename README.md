@@ -33,7 +33,34 @@ Reference
 
 Example
 
-- GET request to /v1/people/1 returns a person's id, name, and favorite city: {"id": 1, "name": "Sean", "favoriteCity": "New York"}
+- GET request to /v1/people:
+
+    $http GET personify-server.herokuapp.com/api/v1/people
+    HTTP/1.1 200 OK
+    ...
+    [
+        {
+            "created_at": "2017-03-26T05:40:00.864Z",
+            "favoriteCity": "Miami",
+            "id": 2,
+            "name": "Sean Kingston",
+            "updated_at": "2017-03-26T05:41:54.999Z"
+        },
+        {
+            "created_at": "2017-03-26T05:42:23.863Z",
+            "favoriteCity": "Kingston",
+            "id": 3,
+            "name": "Sean Paul",
+            "updated_at": "2017-03-26T05:42:23.863Z"
+        },
+        {
+            "created_at": "2017-03-26T04:53:55.476Z",
+            "favoriteCity": "New York",
+            "id": 1,
+            "name": "Sean",
+            "updated_at": "2017-03-26T18:10:24.963Z"
+        }
+    ]
 
 
 Responses
