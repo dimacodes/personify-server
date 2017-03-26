@@ -1,4 +1,4 @@
-# PERSONIFY API
+# Personify API
 
 
 About
@@ -22,14 +22,13 @@ Getting started
 API Reference
 
 - Resources can be accessed via standard HTTP requests
+- Parameters are required for most requests
 
-METHOD           ENDPOINT                   USAGE               RETURNS          PARAMETERS  
-
-GET             /v1/people              See all people	         people               *
-POST	          /v1/people              Create person              *       name: string, favoriteCity: string
-GET             /v1/people/:id            See person             person          id: integer
-PUT             /v1/people/:id          Modify person	           person    name: string, favoriteCity: string
-DELETE          /v1/people/:id          Delete person 	           *             id: integer
+GET       /v1/people        to    See all people     params: *
+POST      /v1/people        to    Create person      params: name: string, favoriteCity: string
+GET       /v1/people/:id    to    See person         params: id: integer
+PUT       /v1/people/:id    to    Modify person	     params: name: string, favoriteCity: string
+DELETE    /v1/people/:id    to    Delete person      params: id: integer
 
 Example
 
