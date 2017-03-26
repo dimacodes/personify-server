@@ -33,7 +33,7 @@ Reference
 
 Example
 
-GET request to /v1/people:
+GET request to [/v1/people](http://personify-server.herokuapp.com/api/v1/people):
 
     $ http GET personify-server.herokuapp.com/api/v1/people
     HTTP/1.1 200 OK
