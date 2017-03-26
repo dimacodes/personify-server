@@ -11,12 +11,10 @@
 
 * Getting started:
 
-Endpoint: http://personify-server.herokuapp.com/api/v1/people 
+Endpoint: http://personify-server.herokuapp.com/api/v1/people
 
-* Tutorials: These can include use cases surrounding different common flows or uses of the application. Examples: Pay a bill, Refund a purchase, Update user settings, etc.
+* Tutorials: Use cases surrounding different common flows or uses of the application. Examples:
 
-* API Reference: This is where the documentation lives regarding the endpoints available, which parameters and headers they receive, HTTP status codes, what the response looks like, what errors may be triggered, and examples that may be in multiple programming languages.
+* API Reference: Endpoints available, which parameters and headers they receive, HTTP status codes, what the response looks like, what errors may be triggered, and examples that may be in multiple programming languages.
 
-* Authentication: Is your API available for public consumption, or is an API token needed? Here is where you can talk about throttling and other areas around security/fair usage.
-
-* ...
+* Authentication: Available for public consumption, no authentication token needed. Throttling, security, fair usage.
