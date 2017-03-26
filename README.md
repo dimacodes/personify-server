@@ -8,7 +8,7 @@ About
 - Responses thoroughly tested
 - REST-compliant
 - Allows cross-origin resource sharing
-- Configured for token-based authentication
+- Token-based authentication not required
 - Current version is 1.0
 - Serves JSON
 
