@@ -9,7 +9,6 @@ About
 - REST-compliant
 - Allows cross-origin resource sharing
 - Configured for token-based authentication
-- Includes versioning
 - Current version is 1.0
 - Serves JSON
 
