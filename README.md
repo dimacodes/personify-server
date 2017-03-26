@@ -23,22 +23,16 @@ Reference
 
 - Resources can be accessed via standard HTTP requests
 - Parameters are required for most requests
+- GET - /v1/people - see all people - parameters: none
+- POST - /v1/people - create person - parameters: name, favoriteCity
+- GET - /v1/people/:id - see person - parameters: id
+- PUT - /v1/people/:id - modify person - parameters: name, favoriteCity
+- DELETE - /v1/people/:id - delete person - parameters: id
 
-GET - /v1/people - see all people - parameters: none
-<br></br>
-POST - /v1/people - create person - parameters: name: string, favoriteCity: string
-<br></br>
-GET - /v1/people/:id - see person - parameters: id
-<br></br>
-PUT - /v1/people/:id - modify person - parameters: name: string, favoriteCity: string
-<br></br>
-DELETE - /v1/people/:id - delete person - parameters: id
 
 Example
 
-GET request to /v1/people/1 returns a person's id, name, and favorite city:
-
-{"id": 1, "name": "Sean", "favoriteCity": "New York"}
+- GET request to /v1/people/1 returns a person's id, name, and favorite city: {"id": 1, "name": "Sean", "favoriteCity": "New York"}
 
 
 Responses
@@ -50,5 +44,5 @@ Authentication
 
 - Personify API is available for public consumption, no authentication token needed
 
-
+<br></br>
 Please visit http://personify-client.herokuapp.com/ to see the Personify API in action
