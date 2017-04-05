@@ -21,8 +21,11 @@ module Api::V1
 
     # PUT /people/:id
     def update
-      @person.update(person_params)
-      json_response(@person)
+      if @person.update(person_params)
+        json_response(@person)
+      else
+        json_response(@person.errors.full_messages, 404)
+      end
     end
 
     # DELETE /people/:id
